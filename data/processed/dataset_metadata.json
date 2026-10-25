@@ -1,0 +1,34 @@
+{
+  "dataset_id": "fancyzhx/amazon_polarity",
+  "source_train_rows": 3600000,
+  "source_test_rows": 400000,
+  "published_total_rows": 4000000,
+  "rows_scanned_from_parquet": 11000,
+  "shards_downloaded": 1,
+  "used_rows": 10000,
+  "sample_limit": 10000,
+  "seed": 42,
+  "label_names": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "split_rows": {
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "split_label_counts": {
+    "train": {
+      "negative": 4000,
+      "positive": 4000
+    },
+    "validation": {
+      "negative": 500,
+      "positive": 500
+    },
+    "test": {
+      "negative": 500,
+      "positive": 500
+    }
+  }
+}

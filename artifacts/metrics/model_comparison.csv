@@ -1,0 +1,4 @@
+model,accuracy,precision_weighted,recall_weighted,f1_weighted
+TF-IDF Linear SVM,0.893,0.8931903041071879,0.893,0.8929870514332234
+DistilBERT,0.916,0.916,0.916,0.916
+TF-IDF Logistic Regression,0.885,0.8850754747930595,0.885,0.8849943647238715
