@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ecommerce-review-sentiment"
+version = "0.1.0"
+description = "End-to-end sentiment classification for Amazon product reviews"
+requires-python = ">=3.10,<3.13"
+
+[tool.setuptools.packages.find]
+include = ["sentiment*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
